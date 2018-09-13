@@ -23,7 +23,8 @@ import org.springframework.test.context.junit4.SpringRunner;
  * 必须是Cloneable接口的子类才可以使用clone()方法，那么Object是否实现了Cloneable接口？
  * 3:创建新的实例对象，在Java中除了通过new关键字，clone()方法，还可以怎么实现？
  *
- * Created by JiaShun on 2018/9/12.
+ * @Author: JiaShun
+ * @Date: 2018/9/12 22:01
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -33,7 +34,7 @@ public class PrototypeTest {
         Container container = new Container();
         PearlMilkTea pearlMilkTea = new PearlMilkTea();
         PuddingMilkTea puddingMilkTea = new PuddingMilkTea();
-        JDMilkTea jdMilkTea = new JDMilkTea();
+        JdMilkTea jdMilkTea = new JdMilkTea();
         container.register("pear",pearlMilkTea);
         container.register("pudding", puddingMilkTea);
         container.register("liuQiangDong",jdMilkTea);

@@ -1,16 +1,18 @@
 package org.js.gof.template;
 
-/**
- * Created by JiaShun on 2018/9/6.
- */
 
-public abstract class ZooRun {
+/**
+ * @Author: JiaShun
+ * @Date: 2018/9/6 22:01
+ */
+public abstract class AbstractZooRun {
     public abstract void start();
     public abstract void run(int i);
     public abstract void end();
     public final void match(){
         start();
-        for(int i=1; i<=5; i++){
+        int size = 5;
+        for(int i=1; i<=size; i++){
             run(i);
         }
         end();

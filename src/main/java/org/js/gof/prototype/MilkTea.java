@@ -1,7 +1,8 @@
 package org.js.gof.prototype;
 
 /**
- * Created by JiaShun on 2018/9/12.
+ * @Author: JiaShun
+ * @Date: 2018/9/12 22:01
  */
 public interface MilkTea extends Cloneable{
     void make(String batching);

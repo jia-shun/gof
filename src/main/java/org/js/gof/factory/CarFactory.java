@@ -4,19 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by JiaShun on 2018/9/9.
+ * @Author: JiaShun
+ * @Date: 2018/9/9 22:01
  */
-
-public class CarFactory extends Factory {
+public class CarFactory extends AbstractFactory {
     private List cars = new ArrayList();
 
     @Override
-    public Product createProduct(String name) {
+    public AbstractProduct createProduct(String name) {
         return new Car(name);
     }
 
     @Override
-    public void registerProduct(Product product) {
+    public void registerProduct(AbstractProduct product) {
         cars.add(((Car)product).getName());
     }
 

@@ -1,9 +1,10 @@
 package org.js.gof.prototype;
 
 /**
- * Created by JiaShun on 2018/9/13.
+ * @Author: JiaShun
+ * @Date: 2018/9/12 22:01
  */
-public class JDMilkTea implements MilkTea{
+public class JdMilkTea implements MilkTea{
     @Override
     public void make(String batching) {
         System.out.println("***********************************");

@@ -2,7 +2,8 @@ package org.js.gof.singleton;
 
 /**
  * 懒汉式
- * Created by JiaShun on 2018/9/11.
+ * @Author: JiaShun
+ * @Date: 2018/9/11 22:01
  */
 public class LazySingleton {
     private LazySingleton(){}

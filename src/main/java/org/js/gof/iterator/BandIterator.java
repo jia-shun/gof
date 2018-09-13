@@ -1,9 +1,9 @@
 package org.js.gof.iterator;
 
 /**
- * Created by JiaShun on 2018/9/3.
+ * @Author: JiaShun
+ * @Date: 2018/9/3 22:01
  */
-
 public class BandIterator implements MyIterator{
     private Band band;
     private int index;
@@ -15,10 +15,11 @@ public class BandIterator implements MyIterator{
 
     @Override
     public boolean hasNext() {
-        if (index < band.getLength())
+        if (index < band.getLength()) {
             return true;
-        else
+        } else {
             return false;
+        }
     }
 
     @Override

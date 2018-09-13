@@ -7,7 +7,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 /**
  * 一个乐队包含多位音乐家，遍历音乐家的名字
- * Created by JiaShun on 2018/9/3.
+ * @Author: JiaShun
+ * @Date: 2018/9/3 22:01
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -1,10 +1,10 @@
 package org.js.gof.template;
 
 /**
- * Created by JiaShun on 2018/9/6.
+ * @Author: JiaShun
+ * @Date: 2018/9/6 22:01
  */
-
-public class RabbitRun extends ZooRun{
+public class RabbitRun extends AbstractZooRun {
     @Override
     public void start() {
         System.out.println("=====" + "小白兔开始跑" + "=====");
