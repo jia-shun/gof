@@ -1,4 +1,4 @@
-package org.js.gof.factory;
+package org.js.gof.factoryMethod;
 
 import java.util.ArrayList;
 import java.util.List;

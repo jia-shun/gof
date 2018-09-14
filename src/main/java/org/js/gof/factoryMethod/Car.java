@@ -1,4 +1,4 @@
-package org.js.gof.factory;
+package org.js.gof.factoryMethod;
 
 /**
  * @Author: JiaShun
