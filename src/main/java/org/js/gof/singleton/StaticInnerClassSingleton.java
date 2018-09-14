@@ -3,7 +3,7 @@ package org.js.gof.singleton;
 /**
  * 静态内部类
  * @Author: JiaShun
- * @Date: 2018/9/11 22:01
+ * @Date: 2018/9/11 23:01
  */
 public class StaticInnerClassSingleton {
     private StaticInnerClassSingleton(){}

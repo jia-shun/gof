@@ -3,7 +3,7 @@ package org.js.gof.singleton;
 /**
  * 饿汉式
  * @Author: JiaShun
- * @Date: 2018/9/11 22:01
+ * @Date: 2018/9/11 23:05
  */
 public class StarveSingleton {
     private StarveSingleton(){}
