@@ -1,8 +1,8 @@
 package org.js.gof.prototype;
 
 /**
- * @Author: JiaShun
- * @Date: 2018/9/12 22:12
+ * @author JiaShun
+ * @date 2018/9/12 22:12
  */
 public class PearlMilkTea implements MilkTea {
     @Override
