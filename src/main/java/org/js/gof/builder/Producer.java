@@ -1,8 +1,8 @@
 package org.js.gof.builder;
 
 /**
- * @Author: JiaShun
- * @Date: 2018/9/13 22:28
+ * @author JiaShun
+ * @date 2018/9/13 22:28
  */
 public class Producer {
     private MakeSong makeSong;

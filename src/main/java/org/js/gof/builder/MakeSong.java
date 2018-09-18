@@ -2,8 +2,8 @@ package org.js.gof.builder;
 
 /**
  * 制作歌曲的步骤
- * @Author: JiaShun
- * @Date: 2018/9/13 22:01
+ * @author JiaShun
+ * @date 2018/9/13 22:01
  */
 public interface MakeSong {
     /**

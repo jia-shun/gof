@@ -1,8 +1,8 @@
 package org.js.gof.builder;
 
 /**
- * @Author: JiaShun
- * @Date: 2018/9/13 22:38
+ * @author JiaShun
+ * @date 2018/9/13 22:38
  */
 public class Jazz implements MakeSong {
     @Override

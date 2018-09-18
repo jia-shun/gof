@@ -1,8 +1,8 @@
 package org.js.gof.builder;
 
 /**
- * @Author: JiaShun
- * @Date: 2018/9/13 22:35
+ * @author JiaShun
+ * @date 2018/9/13 22:35
  */
 public class RockRoll implements MakeSong {
     @Override
