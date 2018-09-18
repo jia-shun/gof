@@ -3,8 +3,8 @@ package org.js.gof.iterator;
 import java.util.ArrayList;
 
 /**
- * @Author: JiaShun
- * @Date: 2018/9/3 22:08
+ * @author JiaShun
+ * @date 2018/9/3 22:08
  */
 
 public class Band implements Aggregate{
