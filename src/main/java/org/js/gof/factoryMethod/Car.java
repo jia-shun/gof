@@ -1,8 +1,8 @@
 package org.js.gof.factoryMethod;
 
 /**
- * @Author: JiaShun
- * @Date: 2018/9/9 22:01
+ * @author JiaShun
+ * @date 2018/9/9 22:01
  */
 public class Car extends AbstractProduct {
     private String name;

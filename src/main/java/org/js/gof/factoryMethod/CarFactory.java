@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @Author: JiaShun
- * @Date: 2018/9/9 22:01
+ * @author JiaShun
+ * @date 2018/9/9 22:01
  */
 public class CarFactory extends AbstractFactory {
     private List cars = new ArrayList();
