@@ -1,9 +1,8 @@
 package org.js.gof.template;
 
-
 /**
- * @Author: JiaShun
- * @Date: 2018/9/6 21:01
+ * @author JiaShun
+ * @date 2018/9/6 21:01
  */
 public abstract class AbstractZooRun {
     public abstract void start();

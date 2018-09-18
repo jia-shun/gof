@@ -1,8 +1,8 @@
 package org.js.gof.template;
 
 /**
- * @Author: JiaShun
- * @Date: 2018/9/6 22:01
+ * @author JiaShun
+ * @date 2018/9/6 22:01
  */
 public class RabbitRun extends AbstractZooRun {
     @Override
