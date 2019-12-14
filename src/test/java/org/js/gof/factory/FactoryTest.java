@@ -1,4 +1,4 @@
-package org.js.gof.factoryMethod;
+package org.js.gof.factory;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
